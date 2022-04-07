@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/gamex/static/css/main.92167304.css",
+    "main.js": "/gamex/static/js/main.c80ac7ec.js",
+    "static/media/event2.jpg": "/gamex/static/media/event2.66bff63378e8b932abdd.jpg",
+    "static/media/comm.png": "/gamex/static/media/comm.9b41e12cfda465182c4e.png",
+    "static/media/event1.jpg": "/gamex/static/media/event1.f4980cc7447fe3461cce.jpg",
+    "static/media/experience.png": "/gamex/static/media/experience.6837a75a57e086795211.png",
+    "static/media/pt-serif.ttf": "/gamex/static/media/pt-serif.d576c62f0931c8119fe7.ttf",
+    "static/media/home.jpg": "/gamex/static/media/home.aca1d32ddacca480a488.jpg",
+    "static/media/comm2.png": "/gamex/static/media/comm2.b3be2b299950625ae404.png",
+    "static/media/event4.jpg": "/gamex/static/media/event4.0aa606a0a74471c0eecc.jpg",
+    "static/media/blog3.jpg": "/gamex/static/media/blog3.5d140a642bb1558393e3.jpg",
+    "static/media/blog1.jpg": "/gamex/static/media/blog1.3b3c2e3a8fa26c7fc6b7.jpg",
+    "static/media/blog2.jpg": "/gamex/static/media/blog2.ab7f781e27aa15bc3a13.jpg",
+    "static/media/forum2.jpg": "/gamex/static/media/forum2.5db0bd9d8d926f45c48b.jpg",
+    "static/media/Montserrat-Regular.ttf": "/gamex/static/media/Montserrat-Regular.e20d5327f1a05620c084.ttf",
+    "static/media/play3.jpg": "/gamex/static/media/play3.9bc1d76f45df02b79201.jpg",
+    "static/media/play1.jpg": "/gamex/static/media/play1.324f539fdac72ccedd53.jpg",
+    "static/media/event3.jpg": "/gamex/static/media/event3.0607ac737d099e5c6066.jpg",
+    "static/media/play4.jpg": "/gamex/static/media/play4.6560c1343d2a6ab09baa.jpg",
+    "static/media/forum.jpg": "/gamex/static/media/forum.52eb418bb521b4104444.jpg",
+    "static/media/play5.jpg": "/gamex/static/media/play5.5a14f8e07ed3a60ff2da.jpg",
+    "static/media/play2.jpg": "/gamex/static/media/play2.1df0a6138a42122c0896.jpg",
+    "static/media/blog4.jpg": "/gamex/static/media/blog4.c5cf0f15fb0db58b0660.jpg",
+    "static/media/play6.jpg": "/gamex/static/media/play6.6869ca70e5cec8bcb176.jpg",
+    "index.html": "/gamex/index.html",
+    "main.92167304.css.map": "/gamex/static/css/main.92167304.css.map",
+    "main.c80ac7ec.js.map": "/gamex/static/js/main.c80ac7ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92167304.css",
+    "static/js/main.c80ac7ec.js"
+  ]
+}
