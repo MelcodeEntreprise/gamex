@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gamex/static/css/main.92167304.css",
-    "main.js": "/gamex/static/js/main.c80ac7ec.js",
+    "main.css": "/gamex/static/css/main.d9f4f419.css",
+    "main.js": "/gamex/static/js/main.60a49cf1.js",
     "static/media/event2.jpg": "/gamex/static/media/event2.66bff63378e8b932abdd.jpg",
     "static/media/comm.png": "/gamex/static/media/comm.9b41e12cfda465182c4e.png",
     "static/media/event1.jpg": "/gamex/static/media/event1.f4980cc7447fe3461cce.jpg",
@@ -25,11 +25,11 @@
     "static/media/blog4.jpg": "/gamex/static/media/blog4.c5cf0f15fb0db58b0660.jpg",
     "static/media/play6.jpg": "/gamex/static/media/play6.6869ca70e5cec8bcb176.jpg",
     "index.html": "/gamex/index.html",
-    "main.92167304.css.map": "/gamex/static/css/main.92167304.css.map",
-    "main.c80ac7ec.js.map": "/gamex/static/js/main.c80ac7ec.js.map"
+    "main.d9f4f419.css.map": "/gamex/static/css/main.d9f4f419.css.map",
+    "main.60a49cf1.js.map": "/gamex/static/js/main.60a49cf1.js.map"
   },
   "entrypoints": [
-    "static/css/main.92167304.css",
-    "static/js/main.c80ac7ec.js"
+    "static/css/main.d9f4f419.css",
+    "static/js/main.60a49cf1.js"
   ]
 }
