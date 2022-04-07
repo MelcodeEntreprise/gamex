@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "pt-serif";
+    src: url(./fonts/pt-serif.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+
+:root{
+    --color-one: #de2e4b;
+    --color-two: #7d4ffe;
+    --color-bg: #1f2638;
+
+    --font-one : "pt-serif", sans-serif;
+    --font-two: "Montserrat-Regular", sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-two);
+    font-size: 16px;
+    background-color: var(--color-bg);
+}
+
+section{
+    margin-bottom: 90px;
+}
+
+@import './tools/tools';
+
+@import './layouts/navigation';
+@import './layouts/home';
+@import './layouts/experience';
+@import './layouts/comm';
+@import './layouts/event';
+@import './layouts/blog';
+@import './layouts/forum';
+@import './layouts/footer';
+
+
+
+
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+@media screen and (max-width: 700px){
+    .section__padding{
+        padding: 4rem;
+    }
+    .section__margin{
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .section__padding{
+        padding: 4rem 2rem;
+    }
+    .section__margin{
+        margin: 4rem 2rem;
+    }
+}
+  
+  

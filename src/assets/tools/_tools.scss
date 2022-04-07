@@ -1,0 +1,56 @@
+@mixin container{
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;   
+}
+
+@mixin overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 99%;
+    width: 100%;
+}
+
+@mixin forumText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+
+    h1{
+        font-family: var(--font-one);
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    p{
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    a{
+        text-decoration: none;
+        background-color: #fff;
+        padding: 8px;
+    }
+}
+
+@mixin buttonRed{
+    border: 1px solid var(--color-one);
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--color-one);
+    padding: 6px;
+    transition: .5s ease-in-out;
+
+    &:hover{
+        background-color: transparent;
+        color: var(--color-one);
+    }
+}

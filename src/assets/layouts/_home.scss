@@ -1,0 +1,162 @@
+.home__container{
+    position: relative;
+   
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .overlay__home{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+    }
+
+    .home__heading{
+        @include container;
+        position: absolute;
+        top: 35%;
+        color: #fff;
+    }
+    
+}
+.home__text{
+    h3{
+        color: var(--color-one);
+        letter-spacing: 1px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 35px;
+        font-family: var(--font-one);
+    }
+
+    .para__home{
+        display: flex;
+        color: #ccc;
+        position: relative;
+
+       &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -5px;
+        width: 2px;
+        height: 20px;
+        background-color: var(--color-one);
+       }
+    }
+}
+
+.home__button{
+    display: inline-block;
+    margin-top: 40px;
+
+    a{
+        text-decoration: none;
+    }
+    .button__particip{
+        color: #fff;
+        background-color: var(--color-one);
+        padding: 8px;
+        border: 1px solid var(--color-one);
+        transition: .5s ease-in-out;
+        &:hover{
+            background-color: transparent;
+            color: var(--color-one);
+        }
+    }
+    .button__more{
+        color: var(--color-one);
+        background-color: #fff;
+        padding: 8px;
+        border: 1px solid #fff;
+        margin-left: 20px;
+        transition: .5s ease-in-out;
+
+        &:hover{
+            background-color: transparent;
+            color: #fff;
+        }
+    }
+}
+
+
+@media only screen and(max-width: 870px){
+    .home__heading{
+        position: absolute;
+        top: 20%!important;
+    }
+
+    .home__text{
+        h1{
+            font-size: 1.4rem;
+        }
+    }
+    
+}
+
+@media only screen and(max-width: 520px){
+    .home__heading{
+        position: absolute;
+        top: 10%!important;
+    }
+
+    .home__text{
+        h3{
+            font-size: 14px;
+        }
+        h1{
+            font-size: 1rem;
+        }
+
+        .para__home{
+            font-size: 14px;
+        }
+    }
+
+    .home__button{
+        margin-top: 20px;
+
+        .button__particip,
+        .button__more{
+            padding: 6px;
+            font-size: 10px!important;
+        }
+    }
+}
+
+@media only screen and(max-width: 360px){
+    .home__text{
+        h1{
+            margin-bottom: 15px;
+        }
+
+        .para__home{
+            font-size: 13px;
+        }
+    }
+}
+
+@media only screen and(max-width: 280px){
+        .para__home{
+            display: none!important;
+        }
+
+        .home__button{
+            margin-top: 0;
+        }
+}
+
